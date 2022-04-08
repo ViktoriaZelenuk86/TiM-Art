@@ -1,0 +1,153 @@
+/*  Below 1344 px (Smaller desktops): 1344px/16px = 84em */
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+  .heading-secondary {
+    font-size: 3rem;
+  }
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Below 1200px (Landscape Tablets) 1200/16 = 75em */
+@media (max-width: 75em) {
+  html {
+    /* 9px/16px = 56.25% */
+    font-size: 56.25%;
+  }
+  .hero {
+    gap: 4.8rem;
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+  .ammunition-container {
+    padding: 9.6rem 3.2rem;
+  }
+}
+
+/* Below 944px (Tablets) 940/16 = 59em */
+@media (max-width: 59em) {
+  /* 8px/16px = 0.5 = 50% */
+  html {
+    font-size: 50%;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .section-ammunition {
+    grid-template-columns: 1fr;
+  }
+  .ammunition-container {
+    padding: 4.8rem;
+  }
+  .subheading {
+    margin-bottom: 4.8rem;
+  }
+  .section-how {
+    padding: 12.8px 0;
+  }
+  .how {
+    grid-template-columns: 1fr;
+    gap: 3.4rem;
+  }
+  .how-description {
+    margin-bottom: 3.2rem;
+  }
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .main-nav-list {
+    font-size: 1.2rem;
+    gap: 2.4rem;
+  }
+  .nav-col {
+    font-size: 1.2rem;
+  }
+  .grid {
+    column-gap: 2.8rem;
+    row-gap: 6.2rem;
+  }
+  .grid--5-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer-nav {
+    gap: 1.2rem;
+  }
+}
+
+/* Below 704px (Smaller Tablets) 704/16 = 44em */
+@media (max-width: 44em) {
+  .grid {
+    column-gap: 2.8rem;
+    row-gap: 6.2rem;
+  }
+  .header {
+    height: 12.8rem;
+    padding: 0 2.4rem;
+  }
+  .footer-nav {
+    gap: 1.2rem;
+  }
+
+  .grid--5-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .main-nav-list {
+    font-size: 1.2rem;
+    gap: 1.2rem;
+  }
+  .logo {
+    height: 9.6rem;
+  }
+}
+
+/* Below 576px (Phons) 576/16 = 36em */
+@media (max-width: 36em) {
+  .header {
+    height: 10rem;
+    padding: 0 0.4rem;
+  }
+  .main-nav-list {
+    font-size: 1.1rem;
+  }
+  .ammunition-container {
+    padding: 3.2rem;
+  }
+  .heading-secondary {
+    font-size: 2.4rem;
+  }
+  .how-description {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 3.2rem;
+  }
+  .ammunitions {
+    grid-template-columns: 1fr;
+    row-gap: 2.4rem;
+  }
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.8rem;
+  }
+  .grid {
+    column-gap: 1.2rem;
+    row-gap: 6.2rem;
+  }
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+  }
+  .footer {
+    padding: 2.4rem 0;
+  }
+  .logo-col,
+  .name-col {
+    grid-column: span 3;
+  }
+}
