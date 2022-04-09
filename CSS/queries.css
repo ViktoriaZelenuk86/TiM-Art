@@ -150,4 +150,7 @@
   .name-col {
     grid-column: span 3;
   }
+  .delivered-text {
+    font-size: 1.4rem;
+  }
 }
